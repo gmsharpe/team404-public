@@ -1,10 +1,10 @@
 {
   "endpoint_details" : {
-    "endpoint_name" : "DEMO-XGBoostEndpoint-2022-04-12-00-12-33",
-    "endpoint_arn" : "arn:aws:sagemaker:us-west-1:230528722967:endpoint/demo-xgboostendpoint-2022-04-12-00-12-33"
+    "endpoint_name" : "NYTaxi-main-10m-XGBoostEndpoint-2022-04-12-23-19-59",
+    "endpoint_arn" : "arn:aws:sagemaker:us-west-1:230528722967:endpoint/nytaxi-main-10m-xgboostendpoint-2022-04-12-23-19-59"
   },
   "training_job_details" : {
-    "training_job_name" : "xgboost-parquet-example-training-2022-04-12-21-59-50",
+    "training_job_name" : "xgboost-parquet-example-training-2022-04-13-01-22-29",
     "training_data_location" : "s3://cse-6242-team-404/training-model/test-2/main_10m/train/main_10m_train.parquet",
     "test_data_location" : "s3://cse-6242-team-404/training-model/test-2/main_10m/test/main_10m_test.parquet",
     "validation_data_location" : "s3://cse-6242-team-404/training-model/test-2/main_10m/val/main_10m_val.parquet"
