@@ -4,10 +4,10 @@
     "endpoint_arn" : "arn:aws:sagemaker:us-west-1:230528722967:endpoint/nytaxi-main-10m-xgboostendpoint-2022-04-12-23-19-59"
   },
   "training_job_details" : {
-    "training_job_name" : "xgboost-parquet-example-training-2022-04-13-01-22-29",
-    "training_data_location" : "s3://cse-6242-team-404/training-model/test-2/main_10m/train/main_10m_train.parquet",
-    "test_data_location" : "s3://cse-6242-team-404/training-model/test-2/main_10m/test/main_10m_test.parquet",
-    "validation_data_location" : "s3://cse-6242-team-404/training-model/test-2/main_10m/val/main_10m_val.parquet"
+    "training_job_name" : "nytaxi-xgb-tuning-16-21-56-55-006-49fe1043",
+    "training_data_location" : "s3://cse-6242-team-404/training-model/v1/one_hot_main_3m/train",
+    "test_data_location" : "s3://cse-6242-team-404/training-model/v1/one_hot_main_3m/test",
+    "validation_data_location" : "s3://cse-6242-team-404/training-model/v1/one_hot_main_3m/val"
   },
     "column_order" : [ "tip_percent","precipitation","celcius","cases","deaths",
     "pulocationid_1","pulocationid_2","pulocationid_3","pulocationid_4","pulocationid_5",
