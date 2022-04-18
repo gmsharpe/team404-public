@@ -9,7 +9,7 @@
     "test_data_location" : "s3://cse-6242-team-404/training-model/v1/one_hot_main_3m/test",
     "validation_data_location" : "s3://cse-6242-team-404/training-model/v1/one_hot_main_3m/val"
   },
-    "column_order" : [ "tip_percent","precipitation","celcius","cases","deaths",
+    "column_order" : [ "tip_percent","precipitation_0","precipitation_1","celcius","cases","deaths",
     "pulocationid_1","pulocationid_2","pulocationid_3","pulocationid_4","pulocationid_5",
     "pulocationid_6","pulocationid_7","pulocationid_8","pulocationid_9","pulocationid_10",
     "pulocationid_11","pulocationid_12","pulocationid_13","pulocationid_14","pulocationid_15",
